@@ -10,9 +10,9 @@ The line is written to be judged on the competition's own brief:
      to them ("tell me your idea") and names the exact ask — let an AI
      agent build their first app idea on make.fun.
   2. Persuasion: it gives a concrete reason to say yes now (their idea
-     becomes a real app they can actually use) and makes handing it over
-     feel easy and low risk (plain words in, no coding, no jargon, and
-     they watch it take shape).
+     becomes a real app they can actually use, starting today) and makes
+     handing it over feel easy and low risk (plain words in, no coding,
+     no jargon, and they watch it take shape).
   3. Clarity: plain words throughout, one read is enough, no jargon to
      decode.
   4. Truth: it promises only what holds up for a beginner — an AI agent
@@ -31,7 +31,7 @@ import os
 LINE = (
     "Just tell me your app idea in plain words and an AI agent will build "
     "it for you on make.fun \u2014 no coding, no jargon, and you can watch "
-    "your idea become a real app you can actually use."
+    "your idea become a real app you can actually use, starting today."
 )
 
 OUTPUT_PATH = "/output/entry.txt"
